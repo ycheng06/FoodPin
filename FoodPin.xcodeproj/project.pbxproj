@@ -20,6 +20,7 @@
 		96C9C7A91B44BBB7007BA42B /* FoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9C7A81B44BBB7007BA42B /* FoodPinTests.swift */; };
 		96C9C7B31B44BD63007BA42B /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9C7B21B44BD63007BA42B /* RestaurantTableViewController.swift */; };
 		96C9C7B51B44CB62007BA42B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9C7B41B44CB62007BA42B /* CustomTableViewCell.swift */; };
+		96D211751B48C62300D8A5E5 /* NewRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D211741B48C62300D8A5E5 /* NewRestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		96C9C7A81B44BBB7007BA42B /* FoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPinTests.swift; sourceTree = "<group>"; };
 		96C9C7B21B44BD63007BA42B /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		96C9C7B41B44CB62007BA42B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		96D211741B48C62300D8A5E5 /* NewRestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRestaurantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				961D83B31B4614AF00B655DF /* DetailTableViewCell.swift */,
 				962D2BFF1B46C69500015736 /* ReviewViewController.swift */,
 				962D2C031B47F7A100015736 /* MapViewController.swift */,
+				96D211741B48C62300D8A5E5 /* NewRestaurantTableViewController.swift */,
 			);
 			path = FoodPin;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				962D2C001B46C69500015736 /* ReviewViewController.swift in Sources */,
 				96C9C7B51B44CB62007BA42B /* CustomTableViewCell.swift in Sources */,
 				96C9C7B31B44BD63007BA42B /* RestaurantTableViewController.swift in Sources */,
+				96D211751B48C62300D8A5E5 /* NewRestaurantTableViewController.swift in Sources */,
 				96C9C7931B44BBB7007BA42B /* AppDelegate.swift in Sources */,
 				961D83B01B4564C000B655DF /* DetailViewController.swift in Sources */,
 				962D2C041B47F7A100015736 /* MapViewController.swift in Sources */,

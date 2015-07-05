@@ -34,6 +34,9 @@ class RestaurantTableViewController: UITableViewController {
         Restaurant(name: "Thai Cafe", type: "Thai", location: "22 Charlwood Street London SW1V 2DY Pimlico", image: "thaicafe.jpg", isVisited: false)
     ]
     
+    @IBAction func unwindToHomeScreen(segue:UIStoryboardSegue) {
+    }
+    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }

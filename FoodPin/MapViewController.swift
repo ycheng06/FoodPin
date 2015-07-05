@@ -20,6 +20,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         self.mapView.delegate = self
 
         // Do any additional setup after loading the view.
+        
+        // Use geocoder to translate address into coordinates
         let geoCoder = CLGeocoder()
         geoCoder.geocodeAddressString(restaurant.location, completionHandler: {placemarks,
         error in
@@ -62,6 +64,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             annotationView.canShowCallout = true
         }
 
+        // Change the annocation image, so the restaurant picture shows up on the left of the annotation
         let leftIconView = UIImageView(frame: CGRectMake(0, 0, 53, 53))
         leftIconView.image = UIImage(named: restaurant.image)
         annotationView.leftCalloutAccessoryView = leftIconView
